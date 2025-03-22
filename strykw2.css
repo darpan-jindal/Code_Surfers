@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4c27a; /* Light orange background */
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2d5fa7;
+    color: white;
+    padding: 15px;
+}
+
+.nav-item {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* Description Box */
+.description-box {
+    background-color: #2d5fa7;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Text and Headings */
+.text-box, .head-part, .view-more {
+    background-color: #2d5fa7;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.head-part {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.view-more {
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+/* Image Box */
+.image-box {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Responsive */
+    max-width: 300px; /* Limit width */
+    margin: auto;
+}
+
+/* Main Image */
+.main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Overlay Image or Video */
+.overlay-media {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%; /* Half the size of the main image */
+    height: auto;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.logo {
+    background-color: #2d5fa7;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: red;
+}

@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4c27a; /* Light orange background */
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2d5fa7;
+    color: white;
+    padding: 15px;
+}
+
+.nav-item {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* Description Box */
+.description-box {
+    background-color: #2d5fa7;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Boxes */
+.text-box, .head-part, .image-box, .view-more {
+    background-color: #2d5fa7;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.head-part {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.view-more {
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+/* Repeated Sections */
+.repeat-section {
+    background-color: #2d5fa7;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.logo {
+    background-color: #2d5fa7;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: red;
+}
